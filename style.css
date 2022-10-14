@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +22,19 @@ body {
 #nav-toggle{
     margin: 0;
     color: #000000;
+}
+
+#citation{
+    font-size: 20px;
+}
+
+#citation> span{
+    font-weight: bold;
+}
+.section-h2{
+    font-size: 26px;
+    font-weight: 500;
+
 }
 /*Debut changement audit */
 
