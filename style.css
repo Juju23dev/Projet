@@ -12,7 +12,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /*Debut changement audit */
-
+p{
+    font-size: 16px!important;
+}
 .navbar-header{
     display: flex;
     align-items: center;
@@ -52,6 +54,14 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
+}
+.btn-atomic-tangerine,.bgc-atomic-tangerine,.ltc-atomic-tangerine{
+background-color: #9d5b3d!important;
+}
+.text-paper{
+    position: relative;
+    font-weight: 800;
+    color :#fcb594!important;
 }
 /*Debut changement audit */
 
@@ -140,8 +150,10 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("https://us.123rf.com/450wm/yamabikay/yamabikay1604/yamabikay160400135/55032433-seamless-square-texture-black-paper-for-background-.jpg?ver=6");
+    opacity: 0.75;
     background-size: 280px 280px;
+    z-index: 0;
 }
 
 .b-parallax {
