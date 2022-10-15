@@ -28,6 +28,7 @@ p{
 
 #citation{
     font-size: 20px!important;
+    margin: 15px 0 !important;
 }
 
 #citation> span{
@@ -43,6 +44,7 @@ p{
     margin: auto!important;
     width: 100%!important;
     height: auto!important;
+    border-radius: 10px;
 }
 
 .portfolio-card{
@@ -54,6 +56,11 @@ p{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
+    text-decoration: none!important;
+    margin: auto !important;
+}
+.social>div{
+    padding: 0!important;
 }
 .btn-atomic-tangerine,.bgc-atomic-tangerine,.ltc-atomic-tangerine{
 background-color: #9d5b3d!important;
@@ -69,6 +76,55 @@ a{
 }
 a:hover{
     text-decoration: none!important;
+}
+
+.fa-chevron-left,.fa-chevron-right{
+    color: white !important;
+}
+.modal-dialog{
+    max-width: 60rem!important;
+    max-height: 60rem!important;
+}
+.row{
+    max-width: 100%!important;
+    margin: 0!important;
+}
+
+@media screen and (max-width : 850px ){
+    .modal-dialog{
+        max-width: 45rem!important;
+        max-height: 45rem!important;
+    }
+    .black-background{
+        padding: 10px 0!important;
+    }
+}
+
+@media screen and (max-width : 450px ){
+    
+    p{
+        font-size: 15px!important;
+    }
+    h2{
+        width: 100%!important;
+        font-size: 18px!important;
+    }
+    #citation{
+        font-size: 16px!important;
+    }
+    .section-h2{
+        font-size: 20px !important;
+        font-weight: bold !important;
+        margin: 10px 0 !important;
+    }
+    .modal-body{
+        padding: 10px!important;
+    }
+    .lightbox-caption{
+        position: unset!important;
+        margin: 5px 0;
+    }
+
 }
 /*Debut changement audit */
 
@@ -157,7 +213,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("https://us.123rf.com/450wm/yamabikay/yamabikay1604/yamabikay160400135/55032433-seamless-square-texture-black-paper-for-background-.jpg?ver=6");
+    background: url("img/texture.jpg");
     opacity: 0.75;
     background-size: 280px 280px;
     z-index: 0;
