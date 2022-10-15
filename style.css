@@ -34,7 +34,17 @@ body {
 .section-h2{
     font-size: 26px!important;
     font-weight: 500!important;
+    width: 70%;
+    margin: auto;
+}
+.img-responsive{
+    margin: auto!important;
+    width: 100%!important;
+    height: auto!important;
+}
 
+.portfolio-card{
+    padding: 25px;
 }
 /*Debut changement audit */
 
