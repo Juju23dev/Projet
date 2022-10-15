@@ -46,6 +46,13 @@ body {
 .portfolio-card{
     padding: 25px;
 }
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
 /*Debut changement audit */
 
 
