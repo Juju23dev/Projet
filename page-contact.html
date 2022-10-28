@@ -35,7 +35,7 @@
 							<img src="img/agence-la-panthere-monochrome.svg" alt="logo la Panthère agence web design lyon" height="40" >
 						</a>						
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-							<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -73,27 +73,27 @@
 						<div class="col-sm-6">
 							<form id="form_1" novalidate >
 								<div class="form-group">
-									<label>
+									<label for="nom" >
 										Nom
 									</label>
-									<input id="name" class="form-control" placeholder="Exemple : MARTIN" required >
+									<input  name="nom" id="name" class="form-control" placeholder="Exemple : MARTIN" required >
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="mail">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" placeholder="your-email@exemple.com" required >
+									<input name="mail" id="email" class="form-control" type="email" placeholder="your-email@exemple.com" required >
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="connu">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" placeholder="internet, Travail, Bouche a oreilles , autre ? " required id="input_504" >
+									<input  name="connu" class="form-control" type="email" placeholder="internet, Travail, Bouche a oreilles , autre ? " required id="input_504" >
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="formulaire">
 										Brief de votre projet
-									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Donnez nous le plus de possible exemples : Que voulez vous faire ? Quel site avez vous ? Ou êtes vous localisé ? " required></textarea>
+									</label><textarea  name="formulaire" id="message" class="form-control" rows="4" cols="50" placeholder="Donnez nous le plus de possible exemples : Que voulez vous faire ? Quel site avez vous ? Ou êtes vous localisé ? " required></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
@@ -124,22 +124,22 @@
 						<div class=" social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="logo tiwtter" ><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="logo facebook" ><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="logo dribbble" ><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="index.html"  aria-label="logo instagram" ><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
